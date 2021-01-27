@@ -78,6 +78,7 @@ function draw(){
     }
     Engine.update(engine);
     strokeWeight(3)
+    fill("black")
     text("SCORE: " +score,750,40)
     text("Press space to get a second chance to play", 50,100)
     ground.display();
